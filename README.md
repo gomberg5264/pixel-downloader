@@ -1,29 +1,27 @@
-# pixel-downloader
-Tools to search on french warez sites.
+# PixelDownloader
 
-## Description
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.22.
 
-This tool search inside a few french warez website :
-* Zone-telechargement
-* Mega-telechargement
-* Wawacity
-* Extra-download
+## Development server
 
-It can do :
-* Search inside website
-* Retrieve all versions of a link
-* Retrieve all download link
-* ~~Send links selected to your JDownloader~~
-* ~~Get links from your JDownloader~~
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Interface : Website with API (default: `http://localhost:3000`)
+## Code scaffolding
 
-## Install & run
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-1. Install npm packaged with `npm install`.
-2. Run with following command `npm start` or `ts-node dist/index.ts`
+## Build
 
-### Docker
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-You can use the `docker-compose.example.yml` with `docker-compose up -d` or
-run `docker run -p 3000:3000 --name pixel-downloader valentintintin/pixel-downloader`
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
